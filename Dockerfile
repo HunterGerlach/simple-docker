@@ -1,5 +1,5 @@
 #FROM - Image to start building on.
-FROM quay.io/quay/busybox:latest
+FROM quay.io/app-sre/busybox:latest
 
 #RUN - Runs a command in the container
 RUN echo "Hello world" > /tmp/hello_world.txt
